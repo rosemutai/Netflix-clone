@@ -1,0 +1,368 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,700&display=swap');
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 100%;
+  height: 100%;
+}
+
+.header {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-repeat: no-repeat;
+  
+}
+
+.background {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-image: url('./images/netflixbg.jpg');
+  background-size: cover;
+  background-position: center;
+  z-index: -1;
+  filter: blur(2px);
+  backdrop-filter: blur(8px);
+}
+
+.navbar {
+  padding: 0 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+img.netflix-logo {
+  width: 120px;
+  height: 100px;
+  perspective: 10px;
+  transform-origin: 0 0;
+  transform: rotateY(9.5deg);
+}
+
+.sign-in-btn {
+  background-color: #e50914;
+  color: #fff;
+  text-align: center;
+  padding: 8px 16px;
+  text-decoration: none;
+  border-radius: 0.1875rem;
+}
+
+.header-content,
+.membership {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  letter-spacing: 0.1rem;
+  z-index: 1;
+  margin-top: 1.8rem;
+}
+
+h1 {
+  padding: 1rem;
+  text-align: center;
+  font-weight: 700; 
+}
+
+.header-content h4 {
+  font-weight: normal;
+  padding-top: 1rem;
+}
+
+.header-content p,
+.membership p {
+  text-align: center;
+  padding: 1rem 0;
+  width: 75%;
+  margin: 0;
+  line-height: 1.6rem;
+  color: #fff;
+}
+
+.header-content input,
+.membership .subscribe-form input {
+  background-color: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  padding: 1rem;
+  width: 80vw;
+  margin: 0 auto;
+  border-radius: 0.1875rem;
+  margin-block: 1rem;
+}
+
+.membership .subscribe-form input {
+  background-color: rgba(45, 45, 45, 0.2);
+}
+
+.header-content input::placeholder,
+.membership .subscribe-form input::placeholder {
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.2);
+  font-size: 1rem;
+}
+
+.signup-form,
+.subscribe-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.signup-form button,
+.subscribe-form button {
+  width: 50%;
+  margin: 0 auto;
+  padding: 1rem 0.5rem;
+  border-radius: 0.1875rem;
+  font-weight: 600;
+  font-size: 1.2rem;
+  background-color: #e50914;
+  color: #fff;
+  letter-spacing: 0.06rem;
+  border: transparent;
+}
+
+.signup-form button span
+.subscribe-form button span {
+  padding-left: 0.2rem;
+  font-weight: 400;
+}
+
+.ad-cards {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(0, 0, 0, 0.6);
+  margin-top: 0.5rem;
+}
+
+.ad-cards .card {
+  background-color: #000;
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  padding: 2rem 1rem;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 0.5rem;
+  position: relative;
+}
+
+.ad-cards .card h2,
+.FAQs h2 {
+  font-weight: 700;
+  font-size: 2rem;
+  letter-spacing: normal;
+  text-align: center;
+}
+
+.ad-cards .card p {
+  text-align: center;
+  padding-block: 1.2rem;
+  letter-spacing: normal;
+  font-size: 1.125rem;
+  font-weight: 400;
+}
+
+.card-video {
+  width: 90%;
+  margin: 0 auto;
+}
+
+img.card-img {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.download-card {
+  width: 60%;
+  height: 4rem;
+  position: absolute;
+  bottom: 20px;
+  padding: 0.5rem 1rem;
+  align-items: center;
+  border-radius: 12px;
+  background-color: #000;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.download-card .img {
+  display: flex;
+  padding-top: 1rem;
+}
+
+.movie-title-status {
+  display: flex;
+  flex-direction: column;
+  padding-left: 0.8rem;
+  align-items: center;
+  margin-top: 8px;
+  
+}
+
+.movie-title-status p {
+  margin-top: -0.8rem;
+  margin-left: -10px;
+  font-size: 12px !important;
+  color: rgb(0, 113, 235);
+  font-weight: 400;
+}
+
+.download-card .img img {
+  width: 40px;
+  height: 48px;
+}
+
+.arrowdown {
+  color: #fff;
+}
+
+.FAQs {
+  background-color: #000;
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  padding: 2rem 1rem;
+  align-items: center;
+  justify-content: space-between;
+  
+  position: relative;
+}
+
+.quiz-cards {
+  background-color: #000;
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  padding-block: 2rem;
+  width: 100%;
+}
+
+.quiz-cards .card {
+  background-color: rgba(45, 45, 45, 1);
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+  padding-block: 1rem;
+}
+
+.quiz-cards .card .title-icon {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.5rem;
+  padding: 0 1rem;
+  align-items: center;
+}
+
+.title-icon p {
+  letter-spacing: 1.4px;
+  font-weight: 400;
+}
+
+.title-icon button {
+  background-color: transparent;
+  border: none;
+  color: #fff;
+  font-weight: lighter;
+  font-size: 1.2rem;
+}
+
+.quiz-cards .card .description{
+  display: none;
+}
+
+.quiz-cards .card .description .active{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  line-height: 1.6rem;
+  letter-spacing: normal;
+  gap: 1rem;
+  width: 90%;
+  padding: 1rem;
+  display: block;
+}
+
+.quiz-card p {
+  padding-block: 1.2rem;
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+.membership {
+  background-color: #000;
+  margin-top: 0;
+}
+
+.membership p {
+  padding-top: 0;
+  margin-top: 0;
+}
+
+.subscribe-form button {
+  margin-bottom: 3rem;
+}
+
+.footer {
+  color: rgba(255, 255, 255, 0.2);
+  background-color: #000;
+  margin-top: 0.5rem;
+  padding: 1.5rem 1.5rem 3rem 1.5rem;
+  
+}
+
+.footer a,
+.footer p {
+  color: rgba(255, 255, 255, 0.7);
+  font-weight: 300;
+}
+
+.footer .contact-link {
+  padding-block: 1.5rem;
+}
+
+.footer .other-links {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer .footer-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer .footer-column a {
+  margin-block: 0.5rem;
+}
+
+.footer button {
+  background-color: rgba(45, 45, 45, 0.2);
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  color: #fff;
+  padding: 0.5rem;
+  border-radius: 0.1875rem;
+  font-weight: 300;
+  font-size: 1.2rem;
+  display: flex;
+  justify-content: space-around;
+  margin-block: 1.2rem
+}
+
+
+select {
+  background-color: rgba(45, 45, 45, 0.2);
+  border: none;
+  color: #fff;
+  font-size: 1rem;
+}
