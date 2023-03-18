@@ -524,6 +524,7 @@ h1.login-title {
   background-position: center;
   z-index: -1;
   filter: blur(2px);
+  background-color: rgba(0, 0, 0, .75);
   backdrop-filter: blur(8px);
 }
 
@@ -547,6 +548,9 @@ hr.footer-divider {
 footer.login-footer {
   background-color: rgba(0, 0, 0, .75);
   margin-block: 0;
+  height: 12rem;
+  background-color: transparent;
+  
 }
 
 
