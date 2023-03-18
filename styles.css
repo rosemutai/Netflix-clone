@@ -7,7 +7,7 @@
 }
 
 body {
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgb(35, 35, 35);
   width: 100%;
   height: 100%;
 }
@@ -17,7 +17,6 @@ body {
   width: 100%;
   height: 100vh;
   background-repeat: no-repeat;
-  
 }
 
 .background {
@@ -106,8 +105,9 @@ h1 {
 
 .header-content input::placeholder,
 .membership .subscribe-form input::placeholder {
-  font-weight: 600;
-  color: rgba(255, 255, 255, 0.2);
+  font-weight: 500;
+  letter-spacing: normal;
+  color: rgba(255, 255, 255, 0.7);
   font-size: 1rem;
 }
 
@@ -154,6 +154,11 @@ h1 {
   justify-content: space-between;
   margin-bottom: 0.5rem;
   position: relative;
+}
+
+.ad-cards .card .title-description {
+  display: flex;
+  flex-direction: column;
 }
 
 .ad-cards .card h2,
@@ -236,7 +241,6 @@ img.card-img {
   padding: 2rem 1rem;
   align-items: center;
   justify-content: space-between;
-  
   position: relative;
 }
 
@@ -365,4 +369,122 @@ select {
   border: none;
   color: #fff;
   font-size: 1rem;
+}
+
+@media screen and (min-width: 768px) {
+
+  .navbar {
+    padding: 0 12rem;
+  }
+
+  .header-content {
+    margin-top: 10rem;
+  }
+
+  .signup-form,
+  .subscribe-form {
+    flex-direction: row;
+    width: 50vw;
+  }
+
+  .signup-form button,
+  .subscribe-form button {
+    width: 40%;
+    padding: 1rem 0;
+    margin: 1rem;
+  }
+
+  .membership {
+    padding-bottom: 2rem;
+  }
+
+  .membership .subscribe-form input{
+    margin: 0 auto;
+    width: 40vw;
+    padding: 0.5rem !important;
+  }
+
+  .header-content input {
+    width: 50%;
+  }
+
+  .ad-cards .card {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 32rem;
+    padding: 0 2rem;
+  }
+
+  .title-description {
+    width: 40%;
+    padding-left: 2rem;
+  }
+
+  .ad-cards .card h2 {
+    font-size: 3rem;
+    text-align: start;
+  }
+
+  .ad-cards .card p {
+    text-align: start;
+    padding-block: 1.2rem;
+    font-size: 1.4rem;
+  }
+
+  video {
+    width: 40%;
+  }
+
+  img.card-img {
+    width: 50%;
+  }
+
+  .stranger-desc {
+    order: 2;
+    width: 36%;
+    margin-right: auto;
+    margin-top: 4rem;
+    padding-left: 0;
+  }
+
+  .stranger-card {
+    order: 1;
+    margin-left: 3rem;
+  }
+
+  .download-card {
+    width: 25%;
+    bottom: 13%;
+    left: 18.4%;
+    height: 6rem;
+    margin: 0 auto;
+  }
+
+  .quiz-cards {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .quiz-cards .card {
+    padding-block: 1.5rem;
+  }
+
+  .FAQs h2 {
+    font-size: 2.5rem;
+  }
+
+  .other-links {
+    display: none !important;
+  }
+
+  .desktop-other-links {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .footer .contact-link  {
+    padding-block: 1.5rem;
+    margin-left: 9rem;
+  }
 }
