@@ -12,7 +12,6 @@ body {
   height: 100%;
 }
 
-
 /* landing page */
 .header {
   position: relative;
@@ -548,9 +547,6 @@ hr.footer-divider {
 footer.login-footer {
   background-color: rgba(0, 0, 0, .75);
   margin-block: 0;
-  height: 12rem;
-  background-color: transparent;
-  
 }
 
 
