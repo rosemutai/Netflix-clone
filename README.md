@@ -1,36 +1,9 @@
 <a name="readme-top"></a>
 
-<!--
-HOW TO USE:
-This is an example of how you may give instructions on setting up your project locally.
-
-Modify this file to match your project and remove sections that don't apply.
-
-REQUIRED SECTIONS:
-- Table of Contents
-- About the Project
-  - Built With
-  - Live Demo
-- Getting Started
-- Authors
-- Future Features
-- Contributing
-- Show your support
-- Acknowledgements
-- License
-
-OPTIONAL SECTIONS:
-- FAQ
-
-After you're finished please remove all the comments and instructions!
--->
-
 <div align="center">
-  <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
-  <!-- <img src="murple_logo.png" alt="logo" width="140"  height="auto" /> -->
   <br/>
 
-  <h3><b>My Portfolio </b></h3>
+  <h3><b>Netflix-clone </b></h3>
 
 </div>
 
@@ -60,15 +33,16 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 My Portfolio <a name="about-project"></a>
+# 📖 Netflix-clone <a name="about-project"></a>
 
 This project is built with HTML & CSS to showcase my html and css skills..
 
-**My Portfolio** is a simple massage for linter practice
+**Netflix-clone** is a simple massage for linter practice
 
 ## :hammer_and_wrench: Built With <a name="built-with"></a>
 - HTML
 - CSS
+JavaScript
 ### Tech Stack <a name="tech-stack"></a>
 <details>
   <summary>Version Control</summary>
@@ -94,17 +68,13 @@ This project is built with HTML & CSS to showcase my html and css skills..
 
 ## Key Features <a name="key-features"></a>
 
-- **Linters SetUp**
-- **Follow HTML and CSS best practices**
-- **Use of css Flexbox**
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LIVE DEMO -->
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://rosemutai.github.io/My-Portfolio/)
+- [Live Demo Link](https://rosemutai.github.io/Netflix-clone/)
 
 
 <!-- GETTING STARTED -->
@@ -131,7 +101,7 @@ Example command:
  -->
 ### Setup
 
-Go to github and find the repository with My-Portfolio
+Go to github and find the repository with My-PortfolioNetflix-clone
 Click on code and copy then go to your gitbash cli on your computer Clone this repository to your desired folder
 
 <!--
@@ -139,7 +109,7 @@ Example commands:
 
 ```sh
   cd my-folder
-  git clone git@github.com:KUBAHO3/Hello-Microverse.git
+  git clone git@github.com:rosemutai/Netflix-clone.git
 ```
 --->
 ### Install
@@ -167,7 +137,7 @@ You can deploy this project using:
 GitHub Pages
 Example:
 ```sh
-git@github.com:rosemutai/My-Portfolio.git
+git@github.com:rosemutai/Netflix-clone.git
 ```
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -181,17 +151,15 @@ git@github.com:rosemutai/My-Portfolio.git
 <!-- FUTURE FEATURES -->
 ## Future Features <a name="future-features"></a>
 
-- [ ] **Make the porfolio responsive**<br/>
 - [ ] **Add Animation**<br/>
-- [ ] **Make the portfolio dynamic**
-- [ ] **Loom link explaining the project** https://www.loom.com/share/a837017526624df386ce0423e4832f76
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- CONTRIBUTING -->
 ## 🤝 Contributing <a name="contributing"></a>
 Contributions, issues, and feature requests are welcome!<br/>
-Feel free to check the [https://github.com/rosemutai/My-Portfolio/issues.
+Feel free to check the [https://github.com/rosemutai/Netflix-clone/issues.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- SUPPORT -->
@@ -201,13 +169,13 @@ If you like this project please follow me on github & twitter and also connect o
 
 <!-- ACKNOWLEDGEMENTS -->
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
-I would like to thank Microverse for this exercise.
+Netflix
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LICENSE -->
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](https://github.com/rosemutai/My-Portfolio/blob/main/LICENSE) licensed.
+This project is [MIT](https://github.com/rosemutai/Netflix-clone/blob/main/LICENSE) licensed.
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
