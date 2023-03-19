@@ -5,13 +5,17 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Home - Netflix</title>
+  <link rel="stylesheet" href="user.css">
+
+  <!-- fontawesome icons -->
+  <script src="https://use.fontawesome.com/102b7523f5.js"></script>
 </head>
 <body>
-  <header>
-    <nav>
+  <header class="user-header">
+    <nav class="user-navbar">
       <div class="logo-menu-links">
         <img class="netflix-logo" src="images/netflix.png" alt="Netflix">
-        <ul>
+        <ul class="navbar-links">
           <li><a href="">Home</a></li>
           <li><a href="">TV Shows</a></li>
           <li><a href="">Movies</a></li>
@@ -20,21 +24,176 @@
           <li><a href="">Browse by Languages</a></li>
         </ul>
       </div>
-      <div class="other-menu-links">
-        <i class="fa fa-search"></i>
+      <div class="other-menu-links ">
+        <i class="fas fa-magnifying-glass search-icon"></i>
         <a href="">Kids</a>
         <i class="fa fa-bell"></i>
-        <img src="" alt="user profile">
-        <select name="profile" id="">
+          <!-- <span class="notification">11</span> -->
+        <img src="images/profile.png"  class="profile-img" alt="user profile">
+        <!-- <select name="profile" id="">
           <option value="">Kids</option>
           <option value="">Manage Profiles</option>
           <option value="">Account</option>
           <option value="">Help Center</option>
           <option value="">Sign Out</option>
-        </select>
+        </select> -->
 
       </div>
     </nav>
+
+    <section class="main-header-content">
+      <div class="movie-description">
+        <img src="images/netflixAd.webp" class="big-n" alt="Netlix logo">
+        
+      </div>
+
+      <div class="top-movies">
+        <div class="top-icon">
+          <h5>TOP 10</h5>
+        </div>
+        <h4>#5 in TV Shows Today</h4>
+      </div>
+
+      <div class="movie-description">
+        <p>When her husband dies, Sole decides that the best
+          way to take care of her son is to become a crime boss
+          --even if that means being her father's enemy.
+        </p>
+      </div>
+
+      <div class="buttons">
+        <button class="play-btn">
+          <i class="fa fa-play"></i>
+          <span>Play</span>
+        </button>
+
+        <button class="more-info-btn">
+          <i class="fa fa-info-circle"></i>
+         <span> More Info</span>
+        </button>
+      </div>
+    </section>
+    
+    <section class="first-set-of-movies">
+      <h5>Young Adult Movies & Shows</h5>
+      <div class="movie-cards">
+        <div class="card">
+          <img src="images/outerbanks.jpg" alt="">
+        </div>
+         <div class="card">
+          <img src="images/block.jpg" alt="">
+        </div>
+         <div class="card">
+          <img src="images/bridge.jpg" alt="">
+        </div>
+        
+        <div class="card">
+          <img src="images/outerbanks.jpg" alt="">
+        </div>
+        <div class="card">
+          <img src="images/elite.jpg" alt="">
+        </div>
+        <div class="card">
+          <img src="images/eva.jpg" alt="">
+        </div>
+        <div class="card">
+          <img src="images/home.jpg" alt="">
+        </div>
+        <div class="card">
+          <img src="images/eva.jpg" alt="">
+        </div>
+        <div class="card">
+          <img src="images/insatiable.jpg" alt="">
+        </div>
+        <div class="card">
+          <img src="images/wednesday.jpg" alt="">
+        </div>
+        
+        
+      </div>
+    </section>
   </header>
+
+  <main class="main-content">
+    <section class="second-set-of-movies">
+      <h5 class="section-title">Trending Now</h5>
+      <div class="movie-cards">
+        <div class="card">
+          <img src="images/outerbanks.jpg" alt="">
+        </div>
+         <div class="card">
+          <img src="images/block.jpg" alt="">
+        </div>
+         <div class="card">
+          <img src="images/bridge.jpg" alt="">
+        </div>
+        
+        <div class="card">
+          <img src="images/outerbanks.jpg" alt="">
+        </div>
+        <div class="card">
+          <img src="images/elite.jpg" alt="">
+        </div>
+        <div class="card">
+          <img src="images/eva.jpg" alt="">
+        </div>
+        <div class="card">
+          <img src="images/home.jpg" alt="">
+        </div>
+        <div class="card">
+          <img src="images/eva.jpg" alt="">
+        </div>
+        <div class="card">
+          <img src="images/insatiable.jpg" alt="">
+        </div>
+        <div class="card">
+          <img src="images/wednesday.jpg" alt="">
+        </div>
+        
+        
+      </div>
+    </section>
+
+    <section class="third-set-of-movies">
+      <h5 class="section-title">Continue watching for Netflix Member</h5>
+      <div class="movie-cards">
+        <div class="card">
+          <img src="images/outerbanks.jpg" alt="">
+        </div>
+         <div class="card">
+          <img src="images/block.jpg" alt="">
+        </div>
+         <div class="card">
+          <img src="images/bridge.jpg" alt="">
+        </div>
+        
+        <div class="card">
+          <img src="images/outerbanks.jpg" alt="">
+        </div>
+        <div class="card">
+          <img src="images/elite.jpg" alt="">
+        </div>
+        <div class="card">
+          <img src="images/eva.jpg" alt="">
+        </div>
+        <div class="card">
+          <img src="images/home.jpg" alt="">
+        </div>
+        <div class="card">
+          <img src="images/eva.jpg" alt="">
+        </div>
+        <div class="card">
+          <img src="images/insatiable.jpg" alt="">
+        </div>
+        <div class="card">
+          <img src="images/wednesday.jpg" alt="">
+        </div>
+        
+        
+      </div>
+    </section>
+
+
+  </main>
 </body>
 </html>
